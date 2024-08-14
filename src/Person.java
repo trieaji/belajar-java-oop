@@ -7,6 +7,16 @@ class Person {
     Person(String paramName, String paramAddress){
         name = paramName;
         address = paramAddress;
+
+        /*
+        ini adalah contoh varible shadowing.
+        name = name;
+        address = address;
+
+        cara mengatasi variable shadowing. Kegunaan this untuk mengakses object saat ini
+        this.name = name;
+        this.address = address;
+        */
     }
     ///// ##### /////
 
